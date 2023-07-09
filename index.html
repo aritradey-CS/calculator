@@ -3,38 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
   </head>
+
   <body>
-    <section class="calculator">
-        <form action="">
-          <input type="text" class="screen" />
-        </form>
+    <div class="container flex flex-col items-center mx-auto m-w-20">
+      <div class="row-input">
+        <input class="input-row" type="input" type="text"/>
+      </div>
       
-        <div class="button">
-          <button type="button" class="btn btn-yellow" data-num="*">*</button>
-          <button type="button" class="btn btn-yellow" data-num="/">/</button>
-          <button type="button" class="btn btn-yellow" data-num="-">-</button>
-          <button type="button" class="btn btn-yellow" data-num="+">+</button>
-      
-          <button type="button" class="btn-grey" data-num="9">9</button>
-          <button type="button" class="btn-grey" data-num="8">8</button>
-          <button type="button" class="btn-grey" data-num="7">7</button>
-          <button type="button" class="btn-grey" data-num="6">6</button>
-          <button type="button" class="btn-grey" data-num="5">5</button>
-          <button type="button" class="btn-grey" data-num="4">4</button>
-          <button type="button" class="btn-grey" data-num="3">3</button>
-          <button type="button" class="btn-grey" data-num="2">2</button>
-          <button type="button" class="btn-grey" data-num="1">1</button>
-          <button type="button" class="btn-grey" data-num="0">0</button>
-          <button type="button" class="btn-grey" data-num=".">.</button>
-      
-          <button type="button" class="btn-equal">=</button>
-          <button type="button" class="btn-clear">C</button>
-        </div>
-      </section>
-      
+      <div class="row">
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button">X</button>
+      </div>
+      <div class="row">
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button">/</button>
+      </div>
+      <div class="row">
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">+</button>
+      </div>
+      <div class="row">
+        <button class="button">0</button>
+        <button class="button">AC</button>
+        <button class="button">=</button>
+        <button class="button">-</button>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
