@@ -1,12 +1,12 @@
 (function() {
     let screen = document.querySelector('.screen');
-    let buttons = document.querySelectorAll('.btn');
+    let buttons = document.querySelectorAll('.btn-grey');
     let clear = document.querySelector('.btn-clear');
     let equal = document.querySelector('.btn-equal');
   
     buttons.forEach(function(button) {
-      button.addEventListener('click', function(e){
-        let value = e.target.textContent; // Access the text content of the button
+      button.addEventListener('click', function(e) {
+        let value = e.target.textContent;
         screen.value += value;
       });
     });
