@@ -6,7 +6,7 @@
   
     buttons.forEach(function(button) {
       button.addEventListener('click', function(e){
-        let value = e.target.dataset.num;
+        let value = e.target.textContent; // Access the text content of the button
         screen.value += value;
       });
     });
