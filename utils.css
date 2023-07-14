@@ -1,27 +1,25 @@
+/* Add or update styles as needed */
 
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins:wght@100;200;300;500&display=swap');
-
-
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
-.bg-red{
-    background-color: cadetblue;
+.bg-red {
+  background-color: cadetblue;
 }
 
-.mx-auto{
-    margin: auto;
+.mx-auto {
+  margin: auto;
 }
 
-.flex{
-display: flex;
+.flex {
+  display: flex;
 }
 
-.flex-col{
-    flex-direction: column;
+.flex-col {
+  flex-direction: column;
 }
 
-.items-center{
-    align-items: center;
+.items-center {
+  align-items: center;
 }
