@@ -1,40 +1,121 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins:wght@100;200;300;500&display=swap');
-
-
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-family: 'Calistoga', cursive;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-.button{
+html,
+body {
+  height: 100%;
+  width: 100%;
   font-family: 'Calistoga', cursive;
-font-family: 'Poppins', sans-serif;
-font-size: larger;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  width: 300px;
+  background-color: #e4e4e4;
+  border-radius: 10px;
   padding: 20px;
-  margin: 10px 8px;
-  border: 2px solid yellowgreen;
-  border-radius: 12px;
+}
+
+.input-row {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  /* ... */
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.button {
+  width: 9vh;
+  flex: 1;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Add this line to create spacing between buttons */
+}
+
+.gray {
+  /* ... */
+  background-color: #e4e4e4;
+  color: #333333;
+  margin-left: 0; /* Change this line to set margin-left to 0 */
+}
+.orange {
+  margin-left: 10px;
+  background-color: orange;
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.input-row {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: right;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 9vh;
+  flex: 1;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.raw{
-  margin: 8px 0;
+.gray {
+  margin-left: 10px;
+    background-color: #e4e4e4;
+    color: #333333;
 }
 
-.input-row{
-  padding: 0 3px 4px -3px;
-    margin: -3px 0 -3px 4px;
-    height: 45pt;
-    width: 275px;
+.orange {
+  background-color: orange;
+  color: white;
 }
-.row-input{
-  height: 50pt;
-    width: 280px;
-    margin: 0px;
-    padding: 4px;
-    border: 2px solid black;
-    border-radius: 5px;
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  transform: scale(0.95);
 }
