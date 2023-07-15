@@ -1,7 +1,6 @@
-Certainly! Here's a simple README document for your calculator project:
-
 # Calculator
 ![image](https://github.com/aritradey-CS/calculator/assets/81703791/630605b0-629b-46fa-84a7-92be0f2bd462)
+https://aritradey-cs.github.io/calculator/
 
 This is a simple calculator project implemented using HTML, CSS, and JavaScript. It allows users to perform basic arithmetic calculations and provides a responsive user interface.
 
