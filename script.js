@@ -4,6 +4,9 @@
   let clear = document.querySelector('.button.gray');
   let equal = document.querySelector('.button.orange');
 
+  
+  // ...
+  
   buttons.forEach(function(button) {
     button.addEventListener('click', function(e) {
       let value = e.target.textContent;
@@ -21,6 +24,7 @@
       }
     });
   });
+  
 
   clear.addEventListener('click', function(e) {
     screen.value = '';
